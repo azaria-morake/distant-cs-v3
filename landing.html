@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distant CS | Under Construction</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Retro paper color */
+            background-color: #f4f1ea; 
+            color: #2b2b2b;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 50px 30px;
+            background: #ffffff;
+            border: 2px solid #232220;
+            box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.15); 
+        }
+
+        /* * PURE CSS LOGO STYLING
+         */
+        .css-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* clamp(min-size, preferred-size, max-size) makes it scale dynamically */
+            font-size: clamp(3rem, 10vw, 6rem); 
+            font-weight: 900;
+            margin-bottom: 40px;
+            line-height: 1;
+        }
+
+        .logo-distant {
+            color: #232220; /* Dark, slightly warm black */
+            letter-spacing: -0.04em; /* Tightly kerned letters */
+            margin-right: 0.12em; /* Gap between words */
+        }
+
+        .logo-cs {
+            background-color: #cb4035; /* Magazine brick red */
+            color: #f4f1ea; /* Matches the background paper color */
+            padding: 0.08em 0.12em; /* Creates the box around the text */
+            letter-spacing: -0.02em;
+        }
+
+        /* Rest of the page styling */
+        h1 {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        .highlight {
+            color: #cb4035; 
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #555;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            max-width: 400px;
+            height: 20px;
+            background-color: #e0e0e0;
+            border: 2px solid #232220;
+            margin: 0 auto 20px auto;
+            position: relative;
+        }
+
+        .progress-bar {
+            width: 65%; /* Update progress here */
+            height: 100%;
+            background-color: #cb4035;
+        }
+
+        .footer {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 30px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="css-logo">
+            <span class="logo-distant">Distant</span>
+            <span class="logo-cs">CS</span>
+        </div>
+        
+        <h1>System <span class="highlight">Upgrading</span></h1>
+        
+        <p>We are currently under construction. We don't want to touch this code ever again, so it's important to concentrate our early efforts in a modular architectural design.</p>
+        
+        <div class="progress-bar-container">
+            <div class="progress-bar"></div>
+        </div>
+        
+        <div class="footer">
+            EST. 1978 &mdash; OPTIMIZING FOR TRUTH
+        </div>
+    </div>
+
+</body>
+</html>
